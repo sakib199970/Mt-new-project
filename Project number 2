@@ -1,0 +1,24 @@
+my project number 2
+age= int(input('Whats Your Age? '))
+
+print("Please Choose Time Unit: \n" 'Months \n' 'Weeks \n' 'Days \n' 'Hours \n' 'Minutes \n' 'Seconds')
+
+unit = input('Enter Your Unit: ')
+
+if unit == 'Months':
+  print('You Lived For : ' + str(age * 12) + 'Months')
+
+elif unit == 'Weeks':
+  print('You Lived For : ' + str(age * 52) + 'Weeks')
+
+elif unit == 'Days':
+  print('You Lived For : ' + str(age * 365) + 'Days')
+
+elif unit == 'Hours':
+  print('You Lived For : ' + str(age * 365 * 24) + 'Hours')
+
+elif unit == 'Minutes':
+  print('You Lived for : ' + str(age * 365 * 24 * 60) + 'Minutes')
+
+elif unit == 'Seconds':
+  print('You Lived For : ' + str(age * 365 * 24 * 60 * 60) + 'Seconds')
