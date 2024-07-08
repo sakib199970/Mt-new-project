@@ -1,4 +1,3 @@
-my new project data science 
 print ("***** WELCOME TO ATM MACHINE STIMULATOR *****\n")
 
 Pin = input('Enter Your Pin: ')
